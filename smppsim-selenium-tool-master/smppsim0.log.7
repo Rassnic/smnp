@@ -1,0 +1,640 @@
+Jul 05, 2021 12:34:32 PM com.seleniumsoftware.SMPPSim.SMPPSim getIntProperty
+WARNING: DELAYED_INBOUND_QUEUE_PROCESSING_PERIOD not specified. Defaulting to 60
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim getIntProperty
+WARNING: DELAYED_INBOUND_QUEUE_MAX_ATTEMPTS not specified. Defaulting to 10
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showLegals
+INFO: ==============================================================
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showLegals
+INFO: =  SMPPSim Copyright (C) 2006 Selenium Software Ltd
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showLegals
+INFO: =  SMPPSim comes with ABSOLUTELY NO WARRANTY; for details
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showLegals
+INFO: =  read the license.txt file that was included in the SMPPSim distribution
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showLegals
+INFO: =  This is free software, and you are welcome to redistribute it under
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showLegals
+INFO: =  certain conditions; Again, see license.txt for details or read the GNU
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showLegals
+INFO: =  GPL license at http://www.gnu.org/licenses/gpl.html
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showLegals
+INFO: =  ...... end of legal stuff ......
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: ==============================================================
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  com.seleniumsoftware.SMPPSim 2.6.0
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  by Martin Woolley (martin@seleniumsoftware.com)
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  http://www.seleniumsoftware.com
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  Running with the following parameters:
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  SMPP_PORT                               :2200
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  SMPP_CONNECTION_HANDLERS                :10
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  CONNECTION_HANDLER_CLASS                :com.seleniumsoftware.SMPPSim.StandardConnectionHandler
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  PROTOCOL_HANDLER_CLASS                  :com.seleniumsoftware.SMPPSim.StandardProtocolHandler
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  LIFE_CYCLE_MANAGER                      :com.seleniumsoftware.SMPPSim.LifeCycleManager
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  SMPP_CONNECTION_HANDLERS                :10
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  INBOUND_QUEUE_CAPACITY                  :1000
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  OUTBOUND_QUEUE_CAPACITY                 :1000
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  MESSAGE_STATE_CHECK_FREQUENCY           :5000
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  MAX_TIME_ENROUTE                        :10000
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  PERCENTAGE_THAT_TRANSITION              :75
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  PERCENTAGE_DELIVERED                    :90
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  PERCENTAGE_UNDELIVERABLE                :6
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  PERCENTAGE_ACCEPTED                     :2
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  PERCENTAGE_REJECTED                     :2
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  DISCARD_FROM_QUEUE_AFTER                :600000
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  OUTBIND_ENABLED                         :false
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  OUTBIND_ESME_IP_ADDRESS                 :null
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  OUTBIND_ESME_PORT		                :0
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  OUTBIND_ESME_PASSWORD                   :Vap123
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  HTTP_PORT                               :88
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  HTTP_THREADS                            :1
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  DOCROOT                                 :www
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  AUTHORISED_FILES                        :/css/style.css,/index.htm,/inject_mo.htm,/favicon.ico,/images/logo.gif,/images/dots.gif,/user-guide.htm,/images/homepage.gif,/images/inject_mo.gif
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  INJECT_MO_PAGE                          :/inject_mo.htm
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  SMSCID                                  :SMPPSim
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  DELIVERY_MESSAGES_PER_MINUTE            :0
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  DELIVER_MESSAGES_FILE                   :N/A
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  LOOPBACK                                :false
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  CAPTURE_REQUESTS_BINARY                 :false
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  CAPTURE_REQUESTS_BINARY_TO_FILE         :sme_binary.capture
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  CAPTURE_RESPONSES_BINARY                :false
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  CAPTURE_RESPONSES_BINARY_TO_FILE        :smppsim_binary.capture
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  CAPTURE_REQUESTS_DECODED                :false
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  CAPTURE_REQUESTS_DECODED_TO_FILE        :sme_decoded.capture
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  CAPTURE_RESPONSES_DECODED               :false
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  CAPTURE_RESPONSES_DECODED_TO_FILE       :smppsim_decoded.capture
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  CALLBACK                                :false
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: =  
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.SMPPSim showConfiguration
+INFO: ==============================================================
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.StandardConnectionHandler runThread
+INFO: StandardConnectionHandler waiting for connection
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.StandardConnectionHandler runThread
+INFO: StandardConnectionHandler waiting for connection
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.StandardConnectionHandler runThread
+INFO: StandardConnectionHandler waiting for connection
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.StandardConnectionHandler runThread
+INFO: StandardConnectionHandler waiting for connection
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.StandardConnectionHandler runThread
+INFO: StandardConnectionHandler waiting for connection
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.StandardConnectionHandler runThread
+INFO: StandardConnectionHandler waiting for connection
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.StandardConnectionHandler runThread
+INFO: StandardConnectionHandler waiting for connection
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.StandardConnectionHandler runThread
+INFO: StandardConnectionHandler waiting for connection
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.StandardConnectionHandler runThread
+INFO: StandardConnectionHandler waiting for connection
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.StandardConnectionHandler runThread
+INFO: StandardConnectionHandler waiting for connection
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.HttpHandler run
+INFO: Starting HttpHandler thread. Listening on port 88 for conections
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.InboundQueue run
+INFO: Starting InboundQueue service....
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.OutboundQueue run
+INFO: Starting Lifecycle Service (OutboundQueue)
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Lifecycle Service: OutboundQueue is empty  - waiting
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.InboundQueue processQueue
+INFO: InboundQueue: empty  - waiting
+Jul 05, 2021 12:34:33 PM com.seleniumsoftware.SMPPSim.DelayedInboundQueue run
+INFO: Starting DelayedInboundQueue service....
+Jul 05, 2021 12:34:47 PM com.seleniumsoftware.SMPPSim.StandardConnectionHandler runThread
+INFO: StandardConnectionHandler accepted a connection
+Jul 05, 2021 12:34:47 PM com.seleniumsoftware.SMPPSim.StandardConnectionHandler runThread
+INFO: Protocol handler is of type StandardProtocolHandler
+Jul 05, 2021 12:34:54 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: : BIND_TRANSCEIVER:
+Jul 05, 2021 12:34:54 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: Hex dump (44) bytes:
+Jul 05, 2021 12:34:54 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 0000002C:00000009:00000000:00000001:
+Jul 05, 2021 12:34:54 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 736D7070:53656C65:6E69756D:56415000:
+Jul 05, 2021 12:34:54 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 56617031:32330000:34001200:
+Jul 05, 2021 12:34:54 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities logDecodedPdu
+INFO: cmd_len=44,cmd_id=9,cmd_status=0,seq_no=1,system_id=smppSeleniumVAP
+Jul 05, 2021 12:34:54 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities logDecodedPdu
+INFO: password=Vap123,system_type=,interface_version=52,addr_ton=0,addr_npi=18
+Jul 05, 2021 12:34:54 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities logDecodedPdu
+INFO: address_range=
+Jul 05, 2021 12:34:54 PM com.seleniumsoftware.SMPPSim.StandardProtocolHandler getBindTRNCVRResponse
+INFO:  
+Jul 05, 2021 12:34:54 PM com.seleniumsoftware.SMPPSim.StandardProtocolHandler setAddressRangeRegExp
+INFO: StandardProtocolHandler: setting address range to 
+Jul 05, 2021 12:34:54 PM com.seleniumsoftware.SMPPSim.StandardProtocolHandler setAddressRangeRegExp
+INFO: Made RE for [:alnum:]*
+Jul 05, 2021 12:34:54 PM com.seleniumsoftware.SMPPSim.StandardProtocolHandler getBindTRNCVRResponse
+INFO: New transceiver session bound to SMPPSim
+Jul 05, 2021 12:34:54 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: : BIND_TRANSCEIVER_RESP:
+Jul 05, 2021 12:34:54 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: Hex dump (24) bytes:
+Jul 05, 2021 12:34:54 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 00000018:80000009:00000000:00000001:
+Jul 05, 2021 12:34:54 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 534D5050:53696D00:
+Jul 05, 2021 12:34:54 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities logDecodedPdu
+INFO: cmd_len=0,cmd_id=-2147483639,cmd_status=0,seq_no=1,system_id=SMPPSim
+Jul 05, 2021 12:34:54 PM com.seleniumsoftware.SMPPSim.StandardProtocolHandler getBindTRNCVRResponse
+INFO:  
+Jul 05, 2021 12:34:54 PM com.seleniumsoftware.SMPPSim.SMPPSim showReceiverCount
+INFO: 1 receivers connected and bound
+Jul 05, 2021 12:34:54 PM com.seleniumsoftware.SMPPSim.InboundQueue processQueue
+INFO: InboundQueue: empty  - waiting
+Jul 05, 2021 12:35:00 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: : UNBIND:
+Jul 05, 2021 12:35:00 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: Hex dump (16) bytes:
+Jul 05, 2021 12:35:00 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 00000010:00000006:00000000:00000001:
+Jul 05, 2021 12:35:00 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 
+Jul 05, 2021 12:35:00 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities logDecodedPdu
+INFO: cmd_len=16,cmd_id=6,cmd_status=0,seq_no=1
+Jul 05, 2021 12:35:00 PM com.seleniumsoftware.SMPPSim.StandardProtocolHandler getUnbindResponse
+INFO:  
+Jul 05, 2021 12:35:00 PM com.seleniumsoftware.SMPPSim.SMPPSim showReceiverCount
+INFO: 0 receivers connected and bound
+Jul 05, 2021 12:35:00 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: : UNBIND_RESP
+Jul 05, 2021 12:35:00 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: Hex dump (16) bytes:
+Jul 05, 2021 12:35:00 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 00000010:80000006:00000000:00000001:
+Jul 05, 2021 12:35:00 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 
+Jul 05, 2021 12:35:00 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities logDecodedPdu
+INFO: cmd_len=0,cmd_id=-2147483642,cmd_status=0,seq_no=1
+Jul 05, 2021 12:35:00 PM com.seleniumsoftware.SMPPSim.StandardProtocolHandler getUnbindResponse
+INFO:  
+Jul 05, 2021 12:35:00 PM com.seleniumsoftware.SMPPSim.StandardConnectionHandler runThread
+INFO: StandardConnectionHandler waiting for connection
+Jul 05, 2021 12:35:33 PM com.seleniumsoftware.SMPPSim.DelayedInboundQueue run
+INFO: Processing 0 messages in the delayed inbound queue
+Jul 05, 2021 12:36:33 PM com.seleniumsoftware.SMPPSim.DelayedInboundQueue run
+INFO: Processing 0 messages in the delayed inbound queue
+Jul 05, 2021 12:37:33 PM com.seleniumsoftware.SMPPSim.DelayedInboundQueue run
+INFO: Processing 0 messages in the delayed inbound queue
+Jul 05, 2021 12:38:33 PM com.seleniumsoftware.SMPPSim.DelayedInboundQueue run
+INFO: Processing 0 messages in the delayed inbound queue
+Jul 05, 2021 12:38:52 PM com.seleniumsoftware.SMPPSim.StandardConnectionHandler runThread
+INFO: StandardConnectionHandler accepted a connection
+Jul 05, 2021 12:38:52 PM com.seleniumsoftware.SMPPSim.StandardConnectionHandler runThread
+INFO: Protocol handler is of type StandardProtocolHandler
+Jul 05, 2021 12:38:57 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: : BIND_TRANSCEIVER:
+Jul 05, 2021 12:38:57 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: Hex dump (44) bytes:
+Jul 05, 2021 12:38:57 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 0000002C:00000009:00000000:00000001:
+Jul 05, 2021 12:38:57 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 736D7070:53656C65:6E69756D:56415000:
+Jul 05, 2021 12:38:57 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 56617031:32330000:34001200:
+Jul 05, 2021 12:38:57 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities logDecodedPdu
+INFO: cmd_len=44,cmd_id=9,cmd_status=0,seq_no=1,system_id=smppSeleniumVAP
+Jul 05, 2021 12:38:57 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities logDecodedPdu
+INFO: password=Vap123,system_type=,interface_version=52,addr_ton=0,addr_npi=18
+Jul 05, 2021 12:38:57 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities logDecodedPdu
+INFO: address_range=
+Jul 05, 2021 12:38:57 PM com.seleniumsoftware.SMPPSim.StandardProtocolHandler getBindTRNCVRResponse
+INFO:  
+Jul 05, 2021 12:38:57 PM com.seleniumsoftware.SMPPSim.StandardProtocolHandler setAddressRangeRegExp
+INFO: StandardProtocolHandler: setting address range to 
+Jul 05, 2021 12:38:57 PM com.seleniumsoftware.SMPPSim.StandardProtocolHandler setAddressRangeRegExp
+INFO: Made RE for [:alnum:]*
+Jul 05, 2021 12:38:57 PM com.seleniumsoftware.SMPPSim.StandardProtocolHandler getBindTRNCVRResponse
+INFO: New transceiver session bound to SMPPSim
+Jul 05, 2021 12:38:57 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: : BIND_TRANSCEIVER_RESP:
+Jul 05, 2021 12:38:57 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: Hex dump (24) bytes:
+Jul 05, 2021 12:38:57 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 00000018:80000009:00000000:00000001:
+Jul 05, 2021 12:38:57 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 534D5050:53696D00:
+Jul 05, 2021 12:38:57 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities logDecodedPdu
+INFO: cmd_len=0,cmd_id=-2147483639,cmd_status=0,seq_no=1,system_id=SMPPSim
+Jul 05, 2021 12:38:57 PM com.seleniumsoftware.SMPPSim.StandardProtocolHandler getBindTRNCVRResponse
+INFO:  
+Jul 05, 2021 12:38:57 PM com.seleniumsoftware.SMPPSim.SMPPSim showReceiverCount
+INFO: 1 receivers connected and bound
+Jul 05, 2021 12:38:57 PM com.seleniumsoftware.SMPPSim.InboundQueue processQueue
+INFO: InboundQueue: empty  - waiting
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: : Standard SUBMIT_SM:
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: Hex dump (75) bytes:
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 0000004B:00000004:00000000:00000001:
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 00000035:35350000:00343038:30333332:
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 33000000:00000000:0000001F:50727565:
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 62612045:6E76696F:20534D53:2053696D:
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 706C6520:69696969:696969
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities logDecodedPdu
+INFO: cmd_len=75,cmd_id=4,cmd_status=0,seq_no=1,service_type=,source_addr_ton=0
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities logDecodedPdu
+INFO: source_addr_npi=0,source_addr=555,dest_addr_ton=0,dest_addr_npi=0
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities logDecodedPdu
+INFO: dest_addr=40803323,esm_class=0,protocol_ID=0,priority_flag=0
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities logDecodedPdu
+INFO: schedule_delivery_time=,validity_period=,registered_delivery_flag=0
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities logDecodedPdu
+INFO: replace_if_present_flag=0,data_coding=0,sm_default_msg_id=0,sm_length=31
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities logDecodedPdu
+INFO: short_message=Prueba Envio SMS Simple iiiiiii
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.StandardProtocolHandler getSubmitSMResponse
+INFO:  
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.MessageState <init>
+INFO: Validity period is not set: defaulting to 5 minutes from now
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.MessageState <init>
+INFO: Generated default validity period=210705124403000+
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: :SUBMIT_SM_RESP:
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: Hex dump (18) bytes:
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 00000012:80000004:00000000:00000001:
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 3000
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities logDecodedPdu
+INFO: cmd_len=0,cmd_id=-2147483644,cmd_status=0,seq_no=1,message_id=0
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.StandardProtocolHandler getSubmitSMResponse
+INFO:  
+Jul 05, 2021 12:39:03 PM com.seleniumsoftware.SMPPSim.StandardProtocolHandler getSubmitSMResponse
+INFO: SubmitSM processing - response written to connection
+Jul 05, 2021 12:39:08 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:39:13 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:39:18 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:39:23 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:39:28 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:39:33 PM com.seleniumsoftware.SMPPSim.DelayedInboundQueue run
+INFO: Processing 0 messages in the delayed inbound queue
+Jul 05, 2021 12:39:33 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:39:38 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:39:43 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:39:48 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:39:53 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:39:58 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:40:03 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:40:08 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:40:13 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:40:18 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:40:23 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:40:28 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:40:33 PM com.seleniumsoftware.SMPPSim.DelayedInboundQueue run
+INFO: Processing 0 messages in the delayed inbound queue
+Jul 05, 2021 12:40:33 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:40:38 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:40:43 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:40:48 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:40:53 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:40:58 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:41:03 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:41:08 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:41:13 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:41:18 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:41:23 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:41:28 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:41:33 PM com.seleniumsoftware.SMPPSim.DelayedInboundQueue run
+INFO: Processing 0 messages in the delayed inbound queue
+Jul 05, 2021 12:41:33 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:41:38 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:41:43 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:41:48 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:41:53 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:41:58 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:42:03 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:42:08 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:42:13 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:42:18 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:42:23 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:42:28 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:42:33 PM com.seleniumsoftware.SMPPSim.DelayedInboundQueue run
+INFO: Processing 0 messages in the delayed inbound queue
+Jul 05, 2021 12:42:33 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:42:38 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:42:43 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:42:48 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:42:53 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:42:58 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:43:03 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:43:08 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:43:13 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:43:18 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:43:23 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:43:28 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:43:33 PM com.seleniumsoftware.SMPPSim.DelayedInboundQueue run
+INFO: Processing 0 messages in the delayed inbound queue
+Jul 05, 2021 12:43:33 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:43:38 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:43:43 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:43:48 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:43:53 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:43:58 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:44:03 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:44:08 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:44:13 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:44:18 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:44:23 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:44:28 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:44:32 PM com.seleniumsoftware.SMPPSim.StandardConnectionHandler readPacketInto
+WARNING: packetLen[3] == -1, throwing EOFException
+Jul 05, 2021 12:44:32 PM com.seleniumsoftware.SMPPSim.StandardConnectionHandler runThread
+INFO: null
+Jul 05, 2021 12:44:32 PM com.seleniumsoftware.SMPPSim.StandardConnectionHandler runThread
+INFO: StandardConnectionHandler waiting for connection
+Jul 05, 2021 12:44:33 PM com.seleniumsoftware.SMPPSim.DelayedInboundQueue run
+INFO: Processing 0 messages in the delayed inbound queue
+Jul 05, 2021 12:44:33 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:44:38 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:44:43 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:44:48 PM com.seleniumsoftware.SMPPSim.StandardConnectionHandler runThread
+INFO: StandardConnectionHandler accepted a connection
+Jul 05, 2021 12:44:48 PM com.seleniumsoftware.SMPPSim.StandardConnectionHandler runThread
+INFO: Protocol handler is of type StandardProtocolHandler
+Jul 05, 2021 12:44:48 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: : BIND_TRANSCEIVER:
+Jul 05, 2021 12:44:48 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: Hex dump (44) bytes:
+Jul 05, 2021 12:44:48 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 0000002C:00000009:00000000:00000001:
+Jul 05, 2021 12:44:48 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 736D7070:53656C65:6E69756D:56415000:
+Jul 05, 2021 12:44:48 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 56617031:32330000:34001200:
+Jul 05, 2021 12:44:48 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities logDecodedPdu
+INFO: cmd_len=44,cmd_id=9,cmd_status=0,seq_no=1,system_id=smppSeleniumVAP
+Jul 05, 2021 12:44:48 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities logDecodedPdu
+INFO: password=Vap123,system_type=,interface_version=52,addr_ton=0,addr_npi=18
+Jul 05, 2021 12:44:48 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities logDecodedPdu
+INFO: address_range=
+Jul 05, 2021 12:44:48 PM com.seleniumsoftware.SMPPSim.StandardProtocolHandler getBindTRNCVRResponse
+INFO:  
+Jul 05, 2021 12:44:48 PM com.seleniumsoftware.SMPPSim.StandardProtocolHandler setAddressRangeRegExp
+INFO: StandardProtocolHandler: setting address range to 
+Jul 05, 2021 12:44:48 PM com.seleniumsoftware.SMPPSim.StandardProtocolHandler setAddressRangeRegExp
+INFO: Made RE for [:alnum:]*
+Jul 05, 2021 12:44:48 PM com.seleniumsoftware.SMPPSim.StandardProtocolHandler getBindTRNCVRResponse
+INFO: New transceiver session bound to SMPPSim
+Jul 05, 2021 12:44:48 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: : BIND_TRANSCEIVER_RESP:
+Jul 05, 2021 12:44:48 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: Hex dump (24) bytes:
+Jul 05, 2021 12:44:48 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 00000018:80000009:00000000:00000001:
+Jul 05, 2021 12:44:48 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 534D5050:53696D00:
+Jul 05, 2021 12:44:48 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities logDecodedPdu
+INFO: cmd_len=0,cmd_id=-2147483639,cmd_status=0,seq_no=1,system_id=SMPPSim
+Jul 05, 2021 12:44:48 PM com.seleniumsoftware.SMPPSim.StandardProtocolHandler getBindTRNCVRResponse
+INFO:  
+Jul 05, 2021 12:44:48 PM com.seleniumsoftware.SMPPSim.SMPPSim showReceiverCount
+INFO: 2 receivers connected and bound
+Jul 05, 2021 12:44:48 PM com.seleniumsoftware.SMPPSim.InboundQueue processQueue
+INFO: InboundQueue: empty  - waiting
+Jul 05, 2021 12:44:48 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:44:51 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: : UNBIND:
+Jul 05, 2021 12:44:51 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: Hex dump (16) bytes:
+Jul 05, 2021 12:44:51 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 00000010:00000006:00000000:00000001:
+Jul 05, 2021 12:44:51 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 
+Jul 05, 2021 12:44:51 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities logDecodedPdu
+INFO: cmd_len=16,cmd_id=6,cmd_status=0,seq_no=1
+Jul 05, 2021 12:44:51 PM com.seleniumsoftware.SMPPSim.StandardProtocolHandler getUnbindResponse
+INFO:  
+Jul 05, 2021 12:44:51 PM com.seleniumsoftware.SMPPSim.SMPPSim showReceiverCount
+INFO: 1 receivers connected and bound
+Jul 05, 2021 12:44:51 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: : UNBIND_RESP
+Jul 05, 2021 12:44:51 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: Hex dump (16) bytes:
+Jul 05, 2021 12:44:51 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 00000010:80000006:00000000:00000001:
+Jul 05, 2021 12:44:51 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities hexDump
+INFO: 
+Jul 05, 2021 12:44:51 PM com.seleniumsoftware.SMPPSim.util.LoggingUtilities logDecodedPdu
+INFO: cmd_len=0,cmd_id=-2147483642,cmd_status=0,seq_no=1
+Jul 05, 2021 12:44:51 PM com.seleniumsoftware.SMPPSim.StandardProtocolHandler getUnbindResponse
+INFO:  
+Jul 05, 2021 12:44:51 PM com.seleniumsoftware.SMPPSim.StandardConnectionHandler runThread
+INFO: StandardConnectionHandler waiting for connection
+Jul 05, 2021 12:44:53 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:44:58 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:45:03 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:45:08 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:45:13 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:45:18 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:45:23 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:45:28 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:45:33 PM com.seleniumsoftware.SMPPSim.DelayedInboundQueue run
+INFO: Processing 0 messages in the delayed inbound queue
+Jul 05, 2021 12:45:33 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:45:38 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:45:43 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:45:48 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:45:53 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:45:58 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:46:03 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:46:08 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:46:13 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:46:18 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:46:23 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:46:28 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:46:33 PM com.seleniumsoftware.SMPPSim.DelayedInboundQueue run
+INFO: Processing 0 messages in the delayed inbound queue
+Jul 05, 2021 12:46:33 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:46:38 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:46:43 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:46:48 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:46:53 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:46:58 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:47:03 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:47:08 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:47:13 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:47:18 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:47:23 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:47:28 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:47:33 PM com.seleniumsoftware.SMPPSim.DelayedInboundQueue run
+INFO: Processing 0 messages in the delayed inbound queue
+Jul 05, 2021 12:47:33 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:47:38 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:47:43 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:47:48 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:47:53 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:47:58 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:48:03 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:48:08 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:48:13 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:48:18 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:48:23 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:48:28 PM com.seleniumsoftware.SMPPSim.OutboundQueue processQueue
+INFO: Assessing state of 1 messages in the OutboundQueue
+Jul 05, 2021 12:48:33 PM com.seleniumsoftware.SMPPSim.DelayedInboundQueue run
+INFO: Processing 0 messages in the delayed inbound queue
